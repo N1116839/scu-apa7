@@ -19,6 +19,12 @@
 
 已安裝舊版者：下載同名 XPI → 在 Zotero「工具 → 附加元件」拖入更新 → 關閉全部 Zotero 視窗後重開 → 回到 Word 測試副本按 Refresh。引用字型只處理引用欄位，正文的其他文字仍由 Word 樣式管理。
 
+## Word 請使用欄位（避免書目斜體消失）
+
+在 Word → Zotero → Document Preferences → 進階選項，**取消勾選「引用文獻儲存為書籤」**，使用 Fields（欄位）。保持「東吳企管碩專 APA7 中英混排（修正版）」後按 OK，再按 Refresh。
+
+既有論文若原本使用書籤，先另存副本，再於副本取消該選項，讓 Zotero 轉換既有引用並重新整理；不需逐筆重插。2026-11-08 已在使用者文件副本確認：原書籤模式的書目斜體消失，轉成欄位並重新整理後，書名、期刊名與卷數斜體恢復。僅需與 LibreOffice 協作時才考慮書籤模式；[Zotero 官方也建議 Word 使用欄位](https://www.zotero.org/support/word_processor_plugin_usage#document_preferences)。
+
 ## Word 字型設定（重要）
 
 2026-11-08 實機核對補充：Zotero 的 Word 端在插入 RTF 後會還原既有字型，參考文獻還會重新套用 Bibliography 樣式。僅在外掛的 RTF 指定字型，不能保證 Word 最後保留；1.0.9 的原生 RTF 測試未涵蓋此 Word 端步驟。
